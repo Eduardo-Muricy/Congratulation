@@ -1,0 +1,150 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-left: 42px;
+    margin-top: 32px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    margin-left: 32px;
+    color: #17233D;
+}
+
+button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    color: white;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+img {
+    width: 534px;
+    height: 463px;
+    margin-left: 123px;
+    margin-top: 163px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+
+    color: #161A49;
+}
+
+p {
+    width: 495px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 47px 0 55px 0;
+
+    letter-spacing: 0.5px;
+
+    color: #4B505A;
+}
+
+.link-main {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #6FBF44;
+}
+
+@media screen and (max-width:800px) {
+    main {
+        width: 100%;
+    }
+
+    nav {
+        width: 30%;
+        margin-left: 60%;
+        position: fixed;
+        top: 0;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        width: 278px;
+        height: 60px;
+        text-align: center;
+        margin-left: 5px;
+        
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 400;
+width: 304px;
+height: 165px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10%;
+    }
+
+    .link-main {
+        margin-top: 0;
+    }
+
+    .nav-link {
+        display: none;
+        text-align: center;
+    }
+
+    section {
+        display: block;
+        position: fixed;
+        margin: 0;
+        top: 15%;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    img {
+        width: 329.92px;
+height: 318.93px;
+        position: fixed;
+        top: 40%;
+        margin-left: 8%;
+    }
+}
